@@ -1,0 +1,36 @@
+#cajafondo{                 /*Caja de fondo del ancho de la página*/
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    background-color: rgb(241, 17, 18);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barraMenu{                 /*Enlaces a las distintatas páginas*/
+    text-align: center;
+    padding-top: 2.5px;
+    font-size: 30px;
+    border-right: 3.5px solid white;
+    border-left: 3.5px solid white;
+    width: 150px;
+}
+
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(241, 17, 18);
+    background-color: white;
+}
