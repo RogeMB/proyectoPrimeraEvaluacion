@@ -1,0 +1,64 @@
+body{
+    margin-top: 75px;
+    background-color: dodgerblue;
+}
+
+.cajacar{                           /*Caja que contiene todo el carrusel*/
+    width: 35%;
+    height: 300px;
+    margin: auto;
+    border: 3px solid white;
+}
+
+.titpieimg{                         /*Título y pie de imagen de la foto*/
+    width: 100%;
+    height: 10%;
+    background-color: rgb(241, 17, 18);
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cajafleimg{                        /*Dentro del DIV cajacar esta este div que contiene las flechas y la imagen*/
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flechas{
+    width: 10%;
+    background-color: rgb(241, 17, 18);
+}
+
+.cajaimg{
+    width: 80%;
+    height: 100%;
+    border: 3px solid white;
+}
+
+.imgflechas{
+    width: 100%;
+    height: auto;
+    margin-top: 175%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+span{
+    color: white;
+    font-size: 25px;
+    margin-left: 45%;
+}
+
+.texto{
+    margin: auto;
+    color: white;
+    font-family: 25px;
+}
