@@ -41,9 +41,10 @@ header{
 }
 
 .imgflechas{
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: 175%;
+    margin-left: 10%;
 }
 
 img{
