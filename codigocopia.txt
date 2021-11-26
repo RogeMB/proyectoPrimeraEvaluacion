@@ -71,3 +71,13 @@ img {
 #cajafondo #aside #anuncio1 .imgmovil{
     height: 33%;
 }
+
+
+
+            <div class="barraMenu"><a href="www.google.es">Inicio</a></div>
+            <div class="barraMenu"><a href="www.google.es">Menús</a></div>
+            <div class="barraMenu"><a href="www.google.es">Cafés</a></div>
+            <div class="barraMenu"><a href="www.google.es">Bocadillos</a></div>
+            <div class="barraMenu"><a href="www.google.es">Pedidos</a></div>
+            <div class="barraMenu"><a href="www.google.es">Quiénes somos</a></div>
+            <div class="barraMenu"><a href="www.google.es">Contacto</a></div>
