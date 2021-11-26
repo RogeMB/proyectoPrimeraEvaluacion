@@ -24,8 +24,14 @@ nav{
     width: 150px;
 }
 
-img{
+
+#banner{
     width: 100%;
+}
+
+#imgportada{                        /*PARA LA IMAGEN PORTADA.*/
+    display: block;
+    margin: auto;
 }
 
 a{
