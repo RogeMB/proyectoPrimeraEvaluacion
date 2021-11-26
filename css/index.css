@@ -30,7 +30,7 @@ nav{
 }
 
 #imgportada{                        /*PARA LA IMAGEN PORTADA.*/
-    padding-top: 3%;
+    padding: 3%;
     display: block;
     margin: auto;
 }
