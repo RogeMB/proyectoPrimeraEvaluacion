@@ -1,94 +1,3 @@
-body{
-    font-family: Verdana, sans-serif;
-}
-
-.cajafondo{                 /*Caja de fondo del ancho de la página*/
-    width: 90%;
-    margin: auto;
-}
-
-nav{
-    background-color: rgb(241, 17, 18);
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.barraMenu{                 /*Enlaces a las distintatas páginas*/
-    text-align: center;
-    padding-top: 2.5px;
-    font-size: 30px;
-    border-right: 3.5px solid white;
-    border-left: 3.5px solid white;
-    width: 150px;
-}
-
-
-#banner{
-    width: 100%;
-}
-
-#imgportada{                        /*PARA LA IMAGEN PORTADA.*/
-    padding-top: 3%;
-    display: block;
-    margin: auto;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    color: rgb(241, 17, 18);
-    background-color: white;
-    border: 2px solid rgb(241, 17, 18);
-}
-
-footer{
-    margin-bottom: auto;
-    width: 100%;
-    height: auto;
-    background-color: rgb(241, 17, 18);
-    text-align: justify;
-}
-
-.pfooter{                               /*Estilo de p en el footer*/
-    margin-top: 0px;
-    padding: 5px;
-    color: white;
-    font-size: 12.5px;
-    margin-left: auto;
-    font-weight: bold;
-}
-
-h1{
-    color: rgb(241, 17, 18);
-}
-
-p{
-    font-size: 15px;
-    color: black;
-}
-
-.afooter{                                   /*Estilo de los enclaces del footer*/
-    text-decoration: none;
-    color: white;
-}
-
-.afooter:hover{
-    color: lightgrey;
-    background-color: rgb(241, 17, 18);
-    border: 0px;
-}
-
-.cajacolumnas{
-    background-color: lightgrey;
-    padding: 25px;
-    display: flex;
-    justify-content: space-around;
-}
 
 /* HTML CAFE  */
 #galeria{
@@ -105,14 +14,15 @@ p{
     border: 2px solid black;
     background-color: red;
     width: 200px;
-    height: 200px;
+    height: 150px;
     margin-left: 45px;
-    margin-right: 15px;
-    
-    text-align: center;
-    
+    margin-right: 55px;
+    margin-top: 25px;    
 
 }
+
 .foto{
-    padding-top: 6px;
+    padding-top: 15px;
+    margin: auto;
+    width: 150px;
 }
