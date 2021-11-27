@@ -64,6 +64,12 @@ main{
     flex-direction: row;
 }
 
+.imgmain{
+    width: auto;
+    height: 100%;
+    margin-left: 12.5%;
+}
+
 #fachada{
     width: 80%;
     height: auto;
@@ -123,6 +129,7 @@ p{
 
 .mainfooter{
     width: 90%;
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -145,4 +152,12 @@ p{
 #panuncio{
     color: white;
     text-align: center;
+}
+
+ul{
+    font-weight: bold;
+}
+
+.aavisol{
+    color: rgb(241, 17, 18);
 }
