@@ -300,3 +300,7 @@ header{
     display: flex;
     flex-direction: row;
 }
+
+#asidecafes{
+    height: 400px;
+}
