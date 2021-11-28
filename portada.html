@@ -13,25 +13,68 @@
 <body>
     <div id="cajafondo">
         <header>
-            <img id="banner" src="img/banner.png" alt="banner">
+            <img id="imgBanner" src="img/banner.png" alt="banner">
         </header>
-        <nav>
-            <div class="barraMenu"><a href="index.html">Inicio</a></div>
-            <p>Esto es para pullear</p>
-            <div class="barraMenu"><a href="www.google.es">Menú</a></div>
+        <nav class="nav">
+            <p>
+                <span class="barraMenu">¡Bienvenidos a la cafetería del Colegio Salesianos de Triana!</span>
+                <span><audio controls autoplay preload="metadata">
+                    <source src="audio/KotoSan_Ofshane.mp3" type=audio/mp3> 
+                    Su navegador no soporta audio en mp3.</audio></span>
+            </p>
         </nav>
         <!-- IMÁGEN PORTADA Y MAPA PENDIENTE REVISION -->
-        <img id="imgportada" src='img/imag portada.png' alt='Foto portada' usemap="#map">
-        <map name="map">
-            <area shape="poly" coords="839,204,850,61,888,66,896,16,949,20,952,19,953,8,1053,12,1053,35,1098,39,1076,207,1023,201,1020,222,901,211" alt="Nuestros Cafés" href="url nuestros cafes" />
-            <area shape="poly" coords="888,399,865,374,864,358,869,344,867,326,862,320,864,311,872,299,881,290,890,271,893,261,918,256,935,241,948,236,959,242,967,244,990,233,1007,247,1018,258,1035,259,1049,285,1054,290,1070,314,1065,331,1063,341,1068,364,1055,388,1056,383,1048,396,1040,400" alt="Menú" href="url menu" />
-            <area shape="poly" coords="31,122,61,98,25,106,14,104,11,104,13,95,17,89,6,92,3,81,30,68,25,61,42,50,46,36,125,2,161,0,137,9,180,5,194,2,206,6,211,27,229,24,241,33,226,47,268,39,272,56,260,65,244,69,247,73,263,78,263,86,256,93,241,99,234,109,207,128,170,141,124,149,91,156,81,159,73,164,42,162,36,148,32,141,41,130" alt="Índice" href="url indice" />
-            <area shape="poly" coords="8,265,59,249,51,233,145,208,148,222,203,201,216,254,263,252,258,265,295,263,305,404,51,403,17,288" alt="Sobre Nosotros" href="url sobre nosotros" />
+        <main>
+            <img id="imgportada" src='img/imag portada.png' alt='Foto portada' usemap="#map">
+            <map name="map">
+                <area shape="poly" coords="839,204,850,61,888,66,896,16,949,20,952,19,953,8,1053,12,1053,35,1098,39,1076,207,1023,201,
+                1020,222,901,211" alt="Nuestros Cafés" href="html/cafes.html" />
+                <area shape="poly" coords="888,399,865,374,864,358,869,344,867,326,862,320,864,311,872,299,881,290,890,271,893,
+                261,918,256,935,241,948,236,959,242,967,244,990,233,1007,247,1018,258,1035,259,1049,285,1054,290,1070,314,1065,331,1063,
+                341,1068,364,1055,388,1056,383,1048,396,1040,400" alt="Menú" href="html/menu.html" />
+                <area shape="poly" coords="31,122,61,98,25,106,14,104,11,104,13,95,17,89,6,92,3,81,30,68,25,61,42,50,46,36,125,2,
+                161,0,137,9,180,5,194,2,206,6,211,27,229,24,241,33,226,47,268,39,272,56,260,65,244,69,247,73,263,78,263,86,256,93,241,
+                99,234,109,207,128,170,141,124,149,91,156,81,159,73,164,42,162,36,148,32,141,41,130" alt="Índice" href="html/index.html" />
+                <area shape="poly" coords="8,265,59,249,51,233,145,208,148,222,203,201,216,254,263,252,258,265,295,263,305,404,
+                51,403,17,288" alt="Sobre Nosotros" href="html/quienessomos.html" />
             </map>
+        </main>
+       
         <footer>
-                <div class="cajacolumnas"><p>prueba</p></div>
-                <p class="pfooter"><a class="afooter" href="politicapriv.html">Politica de privacidad</a> | <a class="afooter" href="">Aviso Legal</a> | <a class="afooter" href="">Políticas cookies</a></p>
-            </footer>
+            <div class="cajacolumnas">
+                <ul><h3>Enlaces Internos</h3>
+                    <li><a class="afooter" href= "html/menus.html" 
+                        target="_self" title="Ir a Menús">Menús</a></li>
+                    <li><a class="afooter" href= "html/cafes.html" 
+                        target="_self" title="Ir a Menús">Cafés</a></li>
+                    <li><a class="afooter" href= "html/bocadillos.html" 
+                        target="_self" title="Ir a Menús">Bocadillos</a></li>
+                    <li><a class="afooter" href= "html/menus.html" 
+                        target="_self" title="Ir a Menús">Quiénes somos</a></li>
+                </ul>
+                <ul><h3>Contacto</h3>
+                    <li><a class="afooter" href= "https://api.whatsapp.com/send/?phone=34673145765&text&app_absent=0" 
+                        target="_blank" title="Contacto por Whatsapp">Whatsapp</a></li>
+                    <li><a class="afooter" href= "https://www.instagram.com/salesianostriana/" target=”_blank” 
+                        title="Ir al Instagram del colegio">Instagram</a></li>
+                    <li><a class="afooter" href= "https://twitter.com/salesianotriana?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" 
+                        target="_blank" title="Ir al Twitter del colegio">Twitter</a></li>
+                    <li>Teléfono: <a class="afooter" href="tel:+34673145765" target="_blank" title="Llamada 
+                        al número">+34 673 14 57 65</a></li>
+                </ul>
+                <ul><h3>Recursos</h3>
+                    <li>Autores</li>
+                    <li>YouTube</li>
+                    <li>fristrum</li>
+                    <li>Lorem</li>
+                </ul>
+            </div>
+            <p class="pfooter">| <a class="afooter" href="html/politicapriv.html" target="_self" title="Ir a política
+                 de privacidad">Politica de privacidad</a> | <a class="afooter" href="html/avisolegal.html" 
+                 target="_self" title="Ir a aviso legal">Aviso Legal</a> | <a class="afooter" href="" 
+                 target="_self" title="Conocer la política de Coockies">Políticas cookies</a> |</p>
+        </footer>
+
     </div>
 </body>
 
