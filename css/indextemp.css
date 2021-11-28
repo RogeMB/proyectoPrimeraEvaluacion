@@ -18,6 +18,12 @@ img{
     height: 100%;
 }
 
+#imgportada{                        /*PARA LA IMAGEN PORTADA.*/
+    padding: 3%;
+    display: block;
+    margin: auto;
+}
+
 nav{
     background-color: rgb(241, 17, 18);
     width: 100%;

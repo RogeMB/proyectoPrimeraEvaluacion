@@ -7,25 +7,26 @@
     <title>Inicio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/indextemp.css'>
-    <script src='main.js'></script>
+
 </head>
 
 <body>
-    <div id="cajafondo">
+    <div class="cajafondo">
         <header>
-            <img id="imgBanner" src="img/banner.png" alt="banner">
+            <img class="imgBanner" src="img/banner.png" alt="Imagen del banner">
         </header>
         <nav class="nav">
             <p>
                 <span class="barraMenu">¡Bienvenidos a la cafetería del Colegio Salesianos de Triana!</span>
                 <span><audio controls autoplay preload="metadata">
-                    <source src="audio/KotoSan_Ofshane.mp3" type=audio/mp3> 
-                    Su navegador no soporta audio en mp3.</audio></span>
+                <source src="audio/KotoSan_Ofshane.mp3" type=audio/mp3> 
+                Su navegador no soporta audio en mp3.</audio></span>
             </p>
         </nav>
         <!-- IMÁGEN PORTADA Y MAPA PENDIENTE REVISION -->
         <main>
-            <img id="imgportada" src='img/imag portada.png' alt='Foto portada' usemap="#map">
+            <div id="imgportada">
+            <img src='img/imag portada.png' alt='Foto portada' usemap="#map">
             <map name="map">
                 <area shape="poly" coords="839,204,850,61,888,66,896,16,949,20,952,19,953,8,1053,12,1053,35,1098,39,1076,207,1023,201,
                 1020,222,901,211" alt="Nuestros Cafés" href="html/cafes.html" />
@@ -38,6 +39,7 @@
                 <area shape="poly" coords="8,265,59,249,51,233,145,208,148,222,203,201,216,254,263,252,258,265,295,263,305,404,
                 51,403,17,288" alt="Sobre Nosotros" href="html/quienessomos.html" />
             </map>
+            </div>
         </main>
        
         <footer>
