@@ -245,8 +245,8 @@ video{
 }
 
 .cajacar{                           /*Caja que contiene todo el carrusel*/
-    width: 35%;
-    height: 300px;
+    width: 45%;
+    height: 400px;
     margin: auto;
     border: 3px solid white;
 }
@@ -307,4 +307,8 @@ header{
 
 #asideindice{
     height: 700px;
+}
+
+h3{
+    text-align: center;
 }
