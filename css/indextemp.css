@@ -309,7 +309,6 @@ header{
     height: 700px;
 }
 
-<<<<<<< HEAD
 .h1bocata{
     color:black;
     text-align: left;
@@ -321,24 +320,28 @@ font-size: 20px;
 }
 
 .cajagrandebocata {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 700px;
   }
 
 .galeriabocata{
+    width: 10%;
+    height: 50%;
     position: relative;
     top: 125px;
     font-size: 30px;
     text-align: center;
-    max-width: 15%;
-    max-height: 15%;
 }
 
-=======
 h3{
     text-align: center;
 }
->>>>>>> c05f9337d4d13e4732bb1ed726c4f5f08fb33aa0
+
+.bocadillosalin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+}
