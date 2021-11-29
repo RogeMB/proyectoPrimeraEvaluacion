@@ -245,8 +245,8 @@ video{
 }
 
 .cajacar{                           /*Caja que contiene todo el carrusel*/
-    width: 35%;
-    height: 300px;
+    width: 45%;
+    height: 400px;
     margin: auto;
     border: 3px solid white;
 }
@@ -309,6 +309,7 @@ header{
     height: 700px;
 }
 
+<<<<<<< HEAD
 .h1bocata{
     color:black;
     text-align: left;
@@ -336,3 +337,8 @@ font-size: 20px;
     max-height: 15%;
 }
 
+=======
+h3{
+    text-align: center;
+}
+>>>>>>> c05f9337d4d13e4732bb1ed726c4f5f08fb33aa0
