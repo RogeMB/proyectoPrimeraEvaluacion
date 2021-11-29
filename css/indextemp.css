@@ -309,6 +309,36 @@ header{
     height: 700px;
 }
 
+<<<<<<< HEAD
+.h1bocata{
+    color:black;
+    text-align: left;
+    text-shadow: 1px 2px 3px black;
+}
+
+.pbocata{
+font-size: 20px;
+}
+
+.cajagrandebocata {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    
+    padding: 10px;
+  }
+
+.galeriabocata{
+    position: relative;
+    top: 125px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+=======
 h3{
     text-align: center;
 }
+>>>>>>> c05f9337d4d13e4732bb1ed726c4f5f08fb33aa0
